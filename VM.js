@@ -9,7 +9,6 @@ $.get('https://script.google.com/macros/s/AKfycbzOuKwdIMjjG8aH4uk5h4vuFmfirsb6Io
   //show.text(data);
   console.log(data);
   $("showMySheetsData").text(data);
-  
   //document.getElementById("showMySheetsData").innerHTML = data.String();
 });
 
