@@ -6,29 +6,9 @@ var parameter = {
 };
 
 $.get('https://script.google.com/macros/s/AKfycbzOuKwdIMjjG8aH4uk5h4vuFmfirsb6Iog--mRbmCV6FBRFSjqoJ6xaRHV__vidhhYp/exec', parameter, function(data) {
-  //show.text(data);
   console.log(data);
   $(document).ready(function(){
     $("showMySheetsData").html(data);
   });
-  //document.getElementById("showMySheetsData").innerHTML = data.String();
+  
 });
-
-//document.getElementById("showMySheetsData").innerHTML = parameter;
-
-/*
-$.get('https://script.google.com/macros/s/AKfycbzOuKwdIMjjG8aH4uk5h4vuFmfirsb6Iog--mRbmCV6FBRFSjqoJ6xaRHV__vidhhYp/exec', parameter, function(data,,status,xhr) {
-  //show.text(data);
-  //console.log(data);
-  document.getElementById("showMySheetsData").innerHTML = parameter;
-},text);*/
-
-//$.("showMySheetsData").html("sahdf");
-//document.getElementById("showMySheetsData").innerHTML = parameter;
-/*$(document).ready(function(){
-  $.get('https://script.google.com/macros/s/AKfycbzOuKwdIMjjG8aH4uk5h4vuFmfirsb6Iog--mRbmCV6FBRFSjqoJ6xaRHV__vidhhYp/exec', parameter, function(data) {
-  //show.text(data);
-  console.log(data);
-  document.getElementById("showMySheetsData").innerHTML = parameter;
-});
-});*/
