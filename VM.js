@@ -8,7 +8,7 @@ var parameter = {
 $.get('https://script.google.com/macros/s/AKfycbzOuKwdIMjjG8aH4uk5h4vuFmfirsb6Iog--mRbmCV6FBRFSjqoJ6xaRHV__vidhhYp/exec', parameter, function(data) {
   //show.text(data);
   console.log(data);
-  $("showMySheetsData").text(data);
+  $("showMySheetsData").html(data);
   //document.getElementById("showMySheetsData").innerHTML = data.String();
 });
 
